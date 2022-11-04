@@ -9,6 +9,7 @@ module.exports = {
     path: path.join(__dirname, "dist"),
     filename: "[name].bundle.js"
   },
+
   module: {
     rules: [
       {
@@ -17,11 +18,12 @@ module.exports = {
         use: ["babel-loader"]
       },
       {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"]
+        test: /\.scss$/i,
+        use: ["style-loader", "css-loader", "sass-loader"]
       }
     ]
   },
+
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "./src/index.html")
