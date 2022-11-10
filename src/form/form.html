@@ -2,12 +2,53 @@
 <html lang="FR">
 <head>
     <meta charset="UTF-8">
-    <title>Form</title>
+    <title>blog</title>
+    <link
+            href="https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap"
+            rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
 </head>
 <body>
-<a href="index.html">Accueil</a>
-<img src="./assets/image/1.jpg" width="300" />
+<div class="container" >
+    <header>
+        <a  class="header-brand" href="index.html">Blog</a>
+        <ul>
+            <li>
+                <a href="index.html" class="header-nav ">Accueil</a>
+            </li>
+            <li>
+                <a href="./form.html" class="header-nav active">Créé une article</a>
+            </li>
+        </ul>
+    </header>
+    <div class="content">
+        <form>
+            <h2 class="title-underline" >Ajouter une article</h2>
+            <div class="form-group">
+                <label>Auteur</label>
+                <input type="text"  name="author" >
+            </div>
+            <div class="form-group">
+                <label>Categorie</label>
+                <input type="text"  name="Categorie" >
+            </div>
+            <div class="form-group">
+                <label>Article</label>
+                <input name="content"  >
+                <textarea name ="content"></textarea>
+            </div>
+            <div class="form-btn-container" >
+                <button class="btn btn-secondary">Annuler</button>
+                <button class="btn btn-primary" >Sauvgarder</button>
+            </div>
+        </form>
+    </div>
+    <footer>©blog</footer>
+</div>
+
 </body>
 </html>
-
-

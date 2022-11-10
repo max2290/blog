@@ -9,18 +9,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f9a2414-bf6d-461b-bd07-816d71d02c9d" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/src/form/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/form/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/form/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/javasscripts/topbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/_classes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/_media-queries.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/_utils.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/features/authentification/a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/features/authentification/b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/features/authentification/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/index.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -62,25 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/maxime/WebstormProjects/blog/src/assets/image",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/maxime/WebstormProjects/blog/src/assets/image&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/image" />
@@ -152,7 +158,11 @@
       <workItem from="1667556674279" duration="2237000" />
       <workItem from="1667810367791" duration="3485000" />
       <workItem from="1667817649818" duration="8508000" />
-      <workItem from="1667831615976" duration="4453000" />
+      <workItem from="1667831615976" duration="4579000" />
+      <workItem from="1667900112495" duration="16232000" />
+      <workItem from="1667982454932" duration="1202000" />
+      <workItem from="1667987401174" duration="9851000" />
+      <workItem from="1668070778318" duration="8933000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1664962736511</created>
@@ -266,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667559841801</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="a">
+      <created>1667836340791</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667836340791</updated>
+    </task>
+    <task id="LOCAL-00018" summary="a">
+      <created>1667836351411</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667836351411</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
