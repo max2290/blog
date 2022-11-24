@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   form{
+    background: white;
     width: 700px;
     padding: 4rem;
     box-shadow: var(--box-shadow);
@@ -35,7 +36,7 @@
           justify-content:flex-end ;
           align-items:center ;
           .btn{
-            margin-left:0.5 rem ;
+            margin-left:0.5rem ;
           }
         }
 

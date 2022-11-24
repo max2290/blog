@@ -2,6 +2,49 @@ import "./form.scss"
 import "/src/assets/styles/style.scss"
 
 
+const form = document.querySelector("form");
+const errorElement = document.querySelector("#errors");
+let errors = [];
 
+form.addEventListener("submit", async event => {
+    event.preventDefault();
+    const formData = new FormData(form);
+    const article = Object.fromEntries(formData.entries());
+    if (formIsValid(article)) {
+        try {
+            const json = JSON.stringify(article);
+            const response = await fetch('https://restapi.fr/api/article12',{
+                method:"post",
+                body: json,
+                headers: {
+                    'Content-Type':'application/json'
+                }
+            });
+            const body =  await response.json();
+            console.log(body);
+        } catch (e){
+            console.error("e:",e);
+        }
+    }
+})
 
-console.log("form")
+const formIsValid = article => {
+    errors = [];
+    if (!article.author || !article.category || !article.content) {
+        errors.push("Vous devez renseigner tous les champs");
+    }
+    if (article.content.length < 20) {
+        errors.push("Le contenu de votre article est trop court !");
+    }
+    if (errors.length) {
+        let errorHTML = "";
+        errors.forEach(e => {
+            errorHTML += `<li>${e}</li>`;
+        });
+        errorElement.innerHTML = errorHTML;
+        return false;
+    } else {
+        errorElement.innerHTML = "";
+        return true;
+    }
+};
