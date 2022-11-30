@@ -13,7 +13,7 @@ form.addEventListener("submit", async event => {
     if (formIsValid(article)) {
         try {
             const json = JSON.stringify(article);
-            const response = await fetch('https://restapi.fr/api/article12',{
+            const response = await fetch('https://restapi.fr/api/article',{
                 method:"post",
                 body: json,
                 headers: {
@@ -23,14 +23,14 @@ form.addEventListener("submit", async event => {
             const body =  await response.json();
             console.log(body);
         } catch (e){
-            console.error("e:",e);
+            console.error("e:", e );
         }
     }
 })
 
 const formIsValid = article => {
     errors = [];
-    if (!article.author || !article.category || !article.content) {
+    if (!article.author || !article.category || !article.content || !article.img || !article.title) {
         errors.push("Vous devez renseigner tous les champs");
     }
     if (article.content.length < 20) {

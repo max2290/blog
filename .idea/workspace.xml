@@ -10,15 +10,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5f9a2414-bf6d-461b-bd07-816d71d02c9d" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/javasscripts/topbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/javasscripts/topbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/_classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2FfI7d39RwZ2fTelKDaAxOyUvlt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -172,7 +171,12 @@
       <workItem from="1669196711828" duration="3304000" />
       <workItem from="1669298403084" duration="6856000" />
       <workItem from="1669308031462" duration="152000" />
-      <workItem from="1669308545204" duration="135000" />
+      <workItem from="1669308545204" duration="2475000" />
+      <workItem from="1669311032442" duration="8214000" />
+      <workItem from="1669366029114" duration="2473000" />
+      <workItem from="1669633149558" duration="561000" />
+      <workItem from="1669646247676" duration="3063000" />
+      <workItem from="1669716479279" duration="10542000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1664962736511</created>
@@ -300,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667836351411</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="a">
+      <created>1669308882999</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669308882999</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

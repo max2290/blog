@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
-    <!-- Nous utilisons un bundler pour préprocesser le Sass en CSS qui s'appelle Parcel.
-			Cet import n'est nécessaire que sur l'éditeur en ligne. -->
+
     <script src="./form.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/c3221c4987.js" crossorigin="anonymous"></script>
     <title>Blog</title>
     <link
             href="https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap"
@@ -16,17 +16,21 @@
 <body>
 <div class="container">
     <header>
-        <a class="header-brand" href="./index.html">Blog</a>
-        <ul>
-            <li>
-                <a href="/src/index.html" class="header-nav">Accueil</a>
-            </li>
-            <li>
-                <a href="/src/form/form.html" class="header-nav active"
-                >Créer un article</a
-                >
-            </li>
-        </ul>
+        <a  class="header-brand" href="index.html">Blog</a>
+        <div class="header-menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="header-nav ">Accueil</a>
+                </li>
+                <li>
+                    <a href="./form.html" class="header-nav active">Créé une article</a>
+                </li>
+            </ul>
+            <div class="header-menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
     </header>
     <div class="content">
         <form>
@@ -36,8 +40,17 @@
                 <input type="text" name="author" />
             </div>
             <div class="form-group">
+                <label>Image de profile</label>
+                <input type="text" name="img"  />
+            </div>
+
+            <div class="form-group">
                 <label>Categorie</label>
                 <input type="text" name="category" />
+            </div>
+            <div class="form-group">
+                <label>titre</label>
+                <input type="text" name="title" />
             </div>
             <div class="form-group">
                 <label>Article</label>

@@ -1,3 +1,5 @@
+@import "./assets/styles/media-queries";
+
 .content {
   display: flex;
   justify-content: center;
@@ -7,12 +9,16 @@
     max-width: 800px;
     width: 100%;
     margin: 5rem 0 10rem 0;
-    .articles{
+    .article{
       box-shadow: var(--box-shadow);
       background:white;
       padding: 0 5rem;
+      @include xs {
+        padding:  0 2rem;
+      }
       border-radius: 0.3rem;
       display: flex;
+      margin-bottom: 5rem;
       flex-direction: column;
       align-items: center;
 
@@ -32,6 +38,7 @@
       }
       .articles-content{
         max-width: 550px;
+        white-space: pre-line;
       }
       .articles-action{
         width: 100%;
