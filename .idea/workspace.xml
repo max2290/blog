@@ -8,18 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f9a2414-bf6d-461b-bd07-816d71d02c9d" name="Changes" comment="a">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/javasscripts/topbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/javasscripts/topbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-    </list>
+    <list default="true" id="5f9a2414-bf6d-461b-bd07-816d71d02c9d" name="Changes" comment="a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,6 +166,7 @@
       <workItem from="1669633149558" duration="561000" />
       <workItem from="1669646247676" duration="3063000" />
       <workItem from="1669716479279" duration="10542000" />
+      <workItem from="1669817503568" duration="206000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1664962736511</created>
@@ -311,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669308882999</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="a">
+      <created>1669817626754</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669817626754</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
